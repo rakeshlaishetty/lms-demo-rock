@@ -79,8 +79,6 @@ app.use("/fees", fees);
 app.use("/timetable", timetable);
 app.use("/assignments/", assignments);
 
-// app.use(express.static(path.join(__dirname, "public")));
-
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
   const path = require("path");

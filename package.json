@@ -27,6 +27,7 @@
     "nodemon": "^2.0.16",
     "pdfkit": "^0.13.0",
     "path": "^0.12.7",
-    "sessionstorage": "^0.1.0"
+    "sessionstorage": "^0.1.0",
+    "@aws-cdk/core": "1.95.0"
   }
 }

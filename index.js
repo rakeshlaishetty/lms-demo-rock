@@ -87,6 +87,9 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
+app.get("/", (req, res) => {
+  res.send("hello World");
+});
 //********************************* SCHEMAS ****************************************** */
 
 const School = require("./Schemas/SchoolSchema");

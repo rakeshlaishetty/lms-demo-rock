@@ -89,7 +89,7 @@ if (process.env.NODE_ENV === "production") {
 }
 app.get("/", (req, res) => {
   const path = require("path");
-  console.log(path.basename);
+  console.log("hello");
   res.send("Hello WOrld");
 });
 //********************************* SCHEMAS ****************************************** */

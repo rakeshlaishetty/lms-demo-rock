@@ -1404,5 +1404,5 @@ app.post("/sendEmail", async (req, res) => {
 
 const port = process.env.PORT || 8080;
 app.listen(port, () => {
-  console.log("3008 server running");
+  console.log(`${port} server running`);
 });
